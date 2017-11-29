@@ -72,3 +72,172 @@ nav li a {
     color: #AAAAAA;
 }
 
+nav li a:hover{
+	border-bottom-color:#FFE4E1;
+}
+
+#topnews img{
+	float:left;
+	vertical-align: bottom;
+	width:640px;
+}
+
+#topnews #lead{
+	float:left;
+	width:300px;
+	color:#3B3B3B;
+	margin-left:25px;
+}
+
+#topnews h2{
+	font-size:18px;
+	font-family:'PingFant TC',sans-serif;
+	text-align:right;
+}
+
+#topnews .more a{
+	color:#3B3B3B;
+	background-image: url(img/more.png);
+	background-size:28px;
+	background-repeat:no-repeat;
+	background-position:right center;
+	display:block;
+	padding:10px 40px 10px 0;
+	text-decoration:none;
+}
+
+#topnews{
+	background-color:#FFE8BF;
+	background:-webkit-gradient(linear,left top,left bottom,from(#00DBDB),to(#FFDEA1));
+	background: -webkit-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	background: -moz-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	background: -o-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	background: -ms-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	background: linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	overflow:hidden;
+}
+
+.post{
+	float:left;
+	width:216px;
+	margin-right:32px;
+	margin-bottom:25px;
+}
+
+.post:last-child{
+	margin-right:0;
+}
+
+.post+.post+.post+.post{
+	margin-right:0;
+}
+
+.post img{
+	width:216px;
+	height:auto;
+	vertical-align:bottom;
+	border:none;
+}
+
+.post .data{
+	float:left;
+	margin:0;
+}
+
+.post .mores{
+float:right;
+color:#3B3B3B;
+font-size:14px;
+font-family:'PingFant TC',sans-serif;
+background-color:#FFE4E1;
+background-image: url(img/more.png);
+background-size:16px;
+background-repeat:no-repeat;
+background-position:94% 50%;
+padding:3px 25px 3px 5px;
+margin:0;
+}
+
+.post a{
+	color:#3B3B3B;
+	text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.post a:hover{
+	background-color:#FFF0D4;
+
+}
+
+/*### FOOTER ###*/
+
+footer{
+	background-color: #ffc559;
+    padding: 5px;
+}
+
+footer p{
+	float: left;
+    margin-top: 10px;
+    color: #969696
+}
+
+#iconmenu{
+	float:right;
+}
+
+#iconmenu ul{
+	margin-bottom: :0;
+	 list-style-type: none;
+}
+
+#iconmenu img {
+    border: none;
+    width: 28px;
+}
+
+#submenu {
+    clear: both;
+    font-family: 'PingFant TC', san-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+#submenu ul {
+    margin: 3px;
+    padding: 0;
+}
+
+#submenu li {
+    list-style-type: none;
+    float: left;
+}
+
+#submenu li a {
+    display: block;
+    width: auto;
+    border-right: solid 1px #FFF7E8;
+    text-align: center;
+    text-decoration: none;
+    color: #00ADAD;
+    font-weight: bold;
+    padding-right: 6px;
+    margin-right: 3px;
+}
+
+#submenu li:last-child a {
+    border: none;
+}
+
+#submenu li+li+li a {
+    border: none;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    color:#969696 ;
+    margin-top: 10px;
+}
