@@ -93,14 +93,14 @@ nav li a:hover{
 	margin:20px 0;
 }
 
-.more {
+.#topnews p .more {
 	font-size:14px;
 	font-family:'PingFant TC',sans-serif;
 	text-align:right;
 
 }
 
-.more a{
+#topnews p .more a{
 	color:#8C8C8C;
 	background-image: url(img/more.png);
 	background-size:16px;
@@ -151,7 +151,7 @@ nav li a:hover{
 
 .post .mores{
 float:right;
-color:#3B3B3B;
+color:#8C8C8C;
 font-size:14px;
 font-family:'PingFant TC',sans-serif;
 background-color:#FFE4E1;
@@ -164,7 +164,7 @@ margin:0;
 }
 
 .post a{
-	color:#3B3B3B;
+	color:#8C8C8C;
 	text-decoration: none;
     display: block;
     overflow: hidden;
