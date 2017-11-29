@@ -93,7 +93,7 @@ nav li a:hover{
 	margin:20px 0;
 }
 
-#topnews .date{
+#topnews .more{
 	font-size:18px;
 	font-family:'PingFant TC',sans-serif;
 	text-align:right;
@@ -112,12 +112,12 @@ nav li a:hover{
 
 #topnews{
 	background-color:#FFE8BF;
-	background:-webkit-gradient(linear,left top,left bottom,from(#00DBDB),to(#FFDEA1));
-	background: -webkit-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
-	background: -moz-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
-	background: -o-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
-	background: -ms-linear-gradient(#00DBDB 0%, #FFDEA1 100%);
-	background: linear-gradient(#00DBDB 0%, #FFDEA1 100%);
+	background:-webkit-gradient(linear,left top,left bottom,from(#ABFFFF),to(#FFDEA1));
+	background: -webkit-linear-gradient(#ABFFFF 0%, #FFDEA1 100%);
+	background: -moz-linear-gradient(#ABFFFF 0%, #FFDEA1 100%);
+	background: -o-linear-gradient(#ABFFFF 0%, #FFDEA1 100%);
+	background: -ms-linear-gradient#ABFFFF 0%, #FFDEA1 100%);
+	background: linear-gradient(#ABFFFF 0%, #FFDEA1 100%);
 	overflow:hidden;
 }
 
