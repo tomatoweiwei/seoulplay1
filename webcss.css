@@ -208,24 +208,24 @@ footer p{
     width: 28px;
 }
 
-#submenu {
+#submeun {
     clear: both;
     font-family: 'PingFant TC', san-serif;
     font-size: 12px;
     overflow: hidden;
 }
 
-#submenu ul {
+#submeun ul {
     margin: 3px;
     padding: 0;
 }
 
-#submenu li {
+#submeun li {
     list-style-type: none;
     float: left;
 }
 
-#submenu li a {
+#submeun li a {
     display: block;
     width: auto;
     border-right: solid 1px #FFF7E8;
@@ -237,11 +237,11 @@ footer p{
     margin-right: 3px;
 }
 
-#submenu li:last-child a {
+#submeun li:last-child a {
     border: none;
 }
 
-#submenu li+li+li a {
+#submeun li+li+li a {
     border: none;
 }
 
