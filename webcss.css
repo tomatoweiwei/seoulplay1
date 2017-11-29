@@ -2,7 +2,7 @@
 
 body {
 	margin: 24px 10px;
-	font-family: Arial,'微軟正黑體',sans-serif;
+	font-family: 'PingFant TC',sans-serif;
 }
 
 #container{
@@ -87,32 +87,40 @@ nav li a:hover{
 	width:260px;
 	color:#8C8C8C;
 	margin-left:25px;
-	font-size: 12pt;
+	
 }
 
 #topnews h2{
 	margin:20px 0;
-
+	font-size: 20pt;
 
 }
 
-.#topnews .more {
-	font-size:14px;
+#topnews p{
+	font-size: 16pt;
+}
+
+
+#topnews .more {
+	font-size:16px;
 	font-family:'PingFant TC',sans-serif;
-	text-align:right;
+	text-align:left;
+	float:right;
+
 
 }
-
 #topnews .more a {
-	color:#ffffff;
-	background-image: url(img/more.png);
+	color:#828282;
+	background-image: url(img/more.svg);
 	background-size:16px;
 	background-repeat:no-repeat;
 	background-position:right center;
 	display:block;
-	padding:10px 40px 10px 0;
+	padding:10px 20px 10px 0;
 	text-decoration:none;
+
 }
+
 
 #topnews{
 	background-color:#FFE8BF;
@@ -150,12 +158,12 @@ nav li a:hover{
 }
 
 .post h2 {
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px 0 0;
 }
 
 .post p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 10px 0;
 }
 
@@ -171,7 +179,7 @@ color:#8C8C8C;
 font-size:14px;
 font-family:'PingFant TC',sans-serif;
 background-color:#FFE4E1;
-background-image: url(img/more.png);
+background-image: url(img/more.svg);
 background-size:16px;
 background-repeat:no-repeat;
 background-position:94% 50%;
@@ -223,6 +231,7 @@ footer p{
 #iconmenu img {
     border: none;
     width: 28px;
+
 }
 
 #submenu {
@@ -230,6 +239,7 @@ footer p{
     font-family: 'PingFant TC', san-serif;
     font-size: 12px;
     overflow: hidden;
+   
 }
 
 #submenu ul {
