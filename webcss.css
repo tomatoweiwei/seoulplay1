@@ -85,7 +85,7 @@ nav li a:hover{
 #topnews #lead{
 	float:left;
 	width:260px;
-	color:#3B3B3B;
+	color:#8C8C8C;
 	margin-left:25px;
 }
 
@@ -93,16 +93,16 @@ nav li a:hover{
 	margin:20px 0;
 }
 
-#topnews .more a{
-	font-size:18px;
+#topnews .more {
+	font-size:14px;
 	font-family:'PingFant TC',sans-serif;
 	text-align:right;
 }
 
-#topnews .more{
-	color:#3B3B3B;
+#topnews .more a{
+	color:#8C8C8C;
 	background-image: url(img/more.png);
-	background-size:28px;
+	background-size:16px;
 	background-repeat:no-repeat;
 	background-position:right center;
 	display:block;
