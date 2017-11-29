@@ -79,12 +79,12 @@ nav li a:hover{
 #topnews img{
 	float:left;
 	vertical-align: bottom;
-	width:640px;
+	width:660px;
 }
 
 #topnews #lead{
 	float:left;
-	width:300px;
+	width:260px;
 	color:#3B3B3B;
 	margin-left:25px;
 }
@@ -173,7 +173,7 @@ margin:0;
 /*### FOOTER ###*/
 
 footer{
-	background-color: #ffc559;
+	background-color: #FFDEA1;
     padding: 5px;
 }
 
@@ -188,9 +188,16 @@ footer p{
 }
 
 #iconmenu ul{
-	margin-bottom: :0;
-	 list-style-type: none;
+	margin:0;
+	padding:3px 0 0;
+	
 }
+
+#iconmenu li{
+	display: inline;
+    list-style-type: none;
+}
+
 
 #iconmenu img {
     border: none;
