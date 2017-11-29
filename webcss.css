@@ -99,7 +99,7 @@ nav li a:hover{
 	text-align:right;
 }
 
-#topnews .more a{
+#topnews .more{
 	color:#3B3B3B;
 	background-image: url(img/more.png);
 	background-size:28px;
