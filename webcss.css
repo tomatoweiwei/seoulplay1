@@ -91,6 +91,8 @@ nav li a:hover{
 
 #topnews h2{
 	margin:20px 0;
+	font-size: 12pt;
+
 }
 
 .#topnews p .more {
@@ -101,7 +103,7 @@ nav li a:hover{
 }
 
 #topnews p .more a{
-	color:#8C8C8C;
+	color:#ffffff;
 	background-image: url(img/more.png);
 	background-size:16px;
 	background-repeat:no-repeat;
@@ -121,6 +123,8 @@ nav li a:hover{
 	background: linear-gradient(#ABFFFF 0%, #FFDEA1 100%);
 	overflow:hidden;
 }
+
+
 
 .post{
 	float:left;
