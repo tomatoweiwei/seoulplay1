@@ -93,13 +93,14 @@ nav li a:hover{
 	margin:20px 0;
 }
 
-#topnews .more {
+.more {
 	font-size:14px;
 	font-family:'PingFant TC',sans-serif;
 	text-align:right;
+
 }
 
-#topnews .more a{
+.more a{
 	color:#8C8C8C;
 	background-image: url(img/more.png);
 	background-size:16px;
