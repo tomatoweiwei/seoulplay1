@@ -47,7 +47,7 @@ footer{
 
 nav{
 	float: right;
-	font-size: 14pt;
+	font-size: 12pt;
 	font-family: 'Oxygen', sans-serif;
 	padding-top: 30px;
 }
@@ -103,7 +103,7 @@ nav li a:hover{
 
 }
 
-#topnews .more a{
+#topnews .more a {
 	color:#ffffff;
 	background-image: url(img/more.png);
 	background-size:16px;
@@ -149,6 +149,17 @@ nav li a:hover{
 	border:none;
 }
 
+.post h2 {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+.post p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+
 .post .time{
 	float:left;
 	margin:0;
@@ -157,7 +168,7 @@ nav li a:hover{
 .post .mores{
 float:right;
 color:#8C8C8C;
-font-size:20px;
+font-size:14px;
 font-family:'PingFant TC',sans-serif;
 background-color:#FFE4E1;
 background-image: url(img/more.png);
