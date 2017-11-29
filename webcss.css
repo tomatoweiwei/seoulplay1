@@ -93,7 +93,7 @@ nav li a:hover{
 	margin:20px 0;
 }
 
-#topnews .more{
+#topnews .more a{
 	font-size:18px;
 	font-family:'PingFant TC',sans-serif;
 	text-align:right;
@@ -208,24 +208,24 @@ footer p{
     width: 28px;
 }
 
-#submeun {
+#submenu {
     clear: both;
     font-family: 'PingFant TC', san-serif;
     font-size: 12px;
     overflow: hidden;
 }
 
-#submeun ul {
+#submenu ul {
     margin: 3px;
     padding: 0;
 }
 
-#submeun li {
+#submenu li {
     list-style-type: none;
     float: left;
 }
 
-#submeun li a {
+#submenu li a {
     display: block;
     width: auto;
     border-right: solid 1px #FFF7E8;
@@ -237,11 +237,11 @@ footer p{
     margin-right: 3px;
 }
 
-#submeun li:last-child a {
+#submenu li:last-child a {
     border: none;
 }
 
-#submeun li+li+li a {
+#submenu li+li+li a {
     border: none;
 }
 
