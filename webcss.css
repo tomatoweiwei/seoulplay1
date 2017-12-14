@@ -6,7 +6,7 @@ body {
 }
 
 #container{
-	width: 960px;
+	width: 980px;
 	margin: auto;
 }
 
@@ -84,7 +84,7 @@ nav li a:hover{
 
 #topnews #lead{
 	float:left;
-	width:260px;
+	width:320px;
 	color:#8C8C8C;
 	margin-left:25px;
 	
@@ -139,7 +139,7 @@ nav li a:hover{
 	float:left;
 	width:216px;
 	margin-right:32px;
-	margin-bottom:25px;
+	margin-bottom:25px;	
 }
 
 .post:last-child{
@@ -152,7 +152,6 @@ nav li a:hover{
 
 .post img{
 	width:216px;
-	height:auto;
 	vertical-align:bottom;
 	border:none;
 }

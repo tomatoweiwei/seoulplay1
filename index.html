@@ -13,35 +13,48 @@
 </head>
 <body>
 
-	<div class="jumbotron">
+	<div class="primary">
 	<div class="container">
 
-	<header>
+	<header class="col-md-12">
 		<div id="banner">
 			<h1>
 				<img src="img/2017/leadlogo.jpg" alt="Hello from Taipei">
 			</h1>
 			
 		</div>
-		<nav>
-			<ul>
-				<li>
-					<a href="#">Seoul</a>
-				</li>
-				<li>
-					<a href="#">Attractions</a>
-				</li>
-				<li>
-					<a href="#">Food</a>
-				</li>
-				<li>
-					<a href="">Shopping</a>
-				</li>
-			</ul>
-		</nav>
+
+
+
+		<!-- Navigation -->
+
+                
+<nav class="navbar navbar-expand-lg navbar-light background-color:#ffffff;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Seoul <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Attractions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shopping</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
 	</header>
 
-	<main>
+	<main class="col-md-12">
 		<div id="topnews">
 			<img src="img/2017/seoul1.jpg" alt="這裡是首爾">
 			<div id="lead">
@@ -52,30 +65,31 @@
 
 			</div>
 		</div>
+	<div id="content" class="col-md-12">
 		<div id="oldnews">
-			<div class="post">
+			<div class="post" class="col-md-3">
 				<a href="#">
 					<img src="img/2017/seoul2.jpg" alt="這裡是弘大">
-					<h2>首爾最多年輕人的聚集地＿弘大</h2>
-				<p>弘大有許多逛街的地方，可以買衣服，更有趣的是，可以看街頭藝人的表演，十分有趣。</p>
+					<h2>首爾年輕人的聚集地＿弘大</h2>
+				<p>弘大有許多逛街的地方，更有趣的是，可以看街頭藝人的表演，十分有趣。</p>
 				<p class="time">2017年10月26日</p>
 				<p class="mores">MORE...</p>
 				</a>
 				
 			</div>
 
-		<div class="post">
+		<div class="post" class="col-md-3">
 				<a href="#">
 					<img src="img/2017/road.jpg" alt="這裡是北村八景">
 					<h2>古代韓國的氣息＿北村八景</h2>
-				<p>是一個小山，要參觀到所有景點必須爬許多坡，但一切都很值得。</p>
+				<p>是一個小山，要參觀到所有景點必須爬許多坡，非常辛苦，但一切都很值得。</p>
 				<p class="time">2017年10月27日</p>
 				<p class="mores">MORE...</p>
 				</a>
 				
 			</div>
 
-		<div class="post">
+		<div class="post" class="col-md-3">
 				<a href="#">
 					<img src="img/2017/cloth.jpg" alt="這裡是景福宮">
 					<h2>去穿韓服拍照吧！＿景福宮</h2>
@@ -86,7 +100,7 @@
 				
 			</div>
 
-		<div class="post">
+		<div class="post" class="col-md-3">
 				<a href="#">
 					<img src="img/2017/water.jpg" alt="這裡是漢江">
 					<h2>適合情侶一起散步＿漢江</h2>
@@ -97,6 +111,7 @@
 				
 			</div>
 		</div>
+	</div>
 
 	</main>
 
@@ -126,7 +141,7 @@
 		</div>
 		<small>Copyright &copy; TOMATOWEI, all rights reserved.</small>
 
-	</footer>
+	</footer class="col-md-12">
 	</div>	
 </div>
 
